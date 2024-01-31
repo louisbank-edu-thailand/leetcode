@@ -7,5 +7,3 @@ def fibonacci(n: int) -> int:
         return n
     else:
         return fibonacci(n - 2) + fibonacci(n - 1)
-
-#test change
